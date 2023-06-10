@@ -1,0 +1,18 @@
+{
+  "name": "stylelint-config-manzdev",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": ["stylelint", "linter", "css", "package"],
+  "author": "ManzDev",
+  "license": "ISC",
+  "dependencies": {
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-stylistic": "^0.4.2"
+  },
+  "peerDependencies": {
+    "stylelint": "^15.7.0"
+  }
+}
