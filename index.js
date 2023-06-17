@@ -30,7 +30,7 @@ module.exports = {
     "keyframe-selector-notation": "percentage-unless-within-keyword-only-block",
     "media-feature-range-notation": "context",
     "selector-pseudo-element-colon-notation": "double",
-    "font-family-name-quotes", "always-where-recommended",
+    "font-family-name-quotes": "always-where-recommended",
     "function-url-quotes": "always",
     "selector-attribute-quotes": "always",
     "shorthand-property-no-redundant-values": true,
