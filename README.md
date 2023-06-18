@@ -7,12 +7,29 @@ https://manz.dev/software/mkweb
 
 ## Características destacables
 
-- ✨ Avisa y da error si añades un valor a una propiedad con enumerados donde no corresponde. Ej: `display: flox`
-- ✨ Máximo `1000` lineas por fichero `.css`: Obliga a separar en ficheros (útil con vite, que bundleliza en un sólo fichero en builds)
+- ✨ Da error si añades propiedades, valores o reglas desconocidas. Ej: `display: flox, backgrnd: red...`
+- ✨ Máx. `1000` lineas por fichero `.css`: Obliga a separar en ficheros (en builds, vite crea un bundle CSS)
 - ✨ Reorganiza propiedades CSS por género o categoría, separando con espacios "psicológicos"
 - ✨ Revisa colores hexadecimales (avisa colores incorrectos, siempre a minúsculas...)
 - ✨ Adapta a formato adecuado lineas largas para facilitar lectura (por ejemplo, gradientes complejos)
+- ✨ Evita propiedades, reglas o valores con vendor prefixes `-webkit-`, `-moz`, etc. Usar [autoprefixer].
 - ✨ No permite varias líneas en blanco vacías consecutivas
+- ✨ Si indicas valores de cero con unidades `0px`, se la retira (`0` es lo mismo que `0px`, `0rem`...)
+- ✨ Selectores, funciones y valores de CSS deben estar en minúscula siempre.
+- ✨ Se prefiere porcentajes sobre decimales en los valores de los canales alfa de los colores.
+- ✨ La sintaxis de color se cambia automáticamente a la moderna. No usar `rgba()` ni `hsla()`.
+- ✨ Usar la notación `url()` en los `@import`. Usar comillas.
+- ✨ Siempre indicar fuentes alternativas y una fuente segura en los `font-family`.
+- ✨ Los pseudoelementos deben utilizar la sintaxis doble de punto y coma: `::before` en lugar de `:before`.
+- ✨ Elimina propiedades, valores o reglas redundantes o duplicadas.
+- ✨ Evita el uso de valores de `:nth-child()` que no son válidos.
+- ✨ Fuerza a utilizar espacios con los operadores en `calc()`
+- ✨ Avisa que los comentarios con doble barra no son válidos en CSS `// no es un comentario`.
+- ✨ Revisa unidades inválidas o desconocidas.
+
+¡Y muchas otras!
+
+[autoprefixer](https://lenguajecss.com/postcss/plugins/autoprefixer/)
 
 ## Instalación
 

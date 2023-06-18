@@ -45,7 +45,6 @@ module.exports = {
     "block-no-empty": true,
     "selector-anb-no-unmatchable": true,
     "no-unknown-animations": true,
-    "no-unknown-custom-properties": true,
     "property-no-unknown": true,
     "annotation-no-unknown": true,
     "at-rule-no-unknown": true,
