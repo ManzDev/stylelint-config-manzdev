@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-manzdev",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -19,6 +19,6 @@
     "stylelint-stylistic": "^0.4.2"
   },
   "peerDependencies": {
-    "stylelint": "^15.7.0"
+    "stylelint": "15.9.0"
   }
 }
