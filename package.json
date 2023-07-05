@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-manzdev",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "stylelint-config-clean-order": "^5.0.1",
-    "stylelint-config-standard": "^33.0.0",
+    "stylelint-config-standard": "^34.0.0",
     "stylelint-file-max-lines": "^1.0.0",
     "stylelint-stylistic": "^0.4.2"
   },

@@ -14,6 +14,7 @@ module.exports = {
     "declaration-property-value-no-unknown": true,
     "media-feature-name-value-no-unknown": true,
     "media-feature-name-no-vendor-prefix": true,
+    "media-query-no-invalid": true,
     "property-no-vendor-prefix": [true, { "ignoreProperties": ["background-clip", "text-fill-color"] }],
     "selector-no-vendor-prefix": true,
     "value-no-vendor-prefix": true,
