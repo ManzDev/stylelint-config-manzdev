@@ -19,6 +19,6 @@
     "stylelint-stylistic": "^0.4.2"
   },
   "peerDependencies": {
-    "stylelint": "15.9.0"
+    "stylelint": "^15.10.0"
   }
 }
