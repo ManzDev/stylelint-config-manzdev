@@ -9,7 +9,6 @@ https://manz.dev/software/mkweb
 
 - ✨ Da error si añades propiedades, valores o reglas desconocidas. Ej: `display: flox, backgrnd: red...`
 - ✨ Máx. `1000` lineas por fichero `.css`: Obliga a separar en ficheros (en builds, vite crea un bundle CSS)
-- ✨ Reorganiza propiedades CSS por género o categoría, separando con espacios "psicológicos"
 - ✨ Revisa colores hexadecimales (avisa colores incorrectos, siempre a minúsculas...)
 - ✨ Adapta a formato adecuado lineas largas para facilitar lectura (por ejemplo, gradientes complejos)
 - ✨ Evita propiedades, reglas o valores con vendor prefixes `-webkit-`, `-moz`, etc. Usar [autoprefixer].

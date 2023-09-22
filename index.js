@@ -1,8 +1,7 @@
 module.exports = {
   "extends": [
     "stylelint-config-standard",
-    "stylelint-stylistic/config",
-    "stylelint-config-clean-order"
+    "stylelint-stylistic/config"
   ],
   "overrides": [
     { "files": ["**/*.css"] }
