@@ -18,6 +18,6 @@
     "stylelint-stylistic": "^0.4.3"
   },
   "peerDependencies": {
-    "stylelint": "^15.10.0"
+    "stylelint": "^15.10.3"
   }
 }

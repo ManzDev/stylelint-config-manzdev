@@ -37,6 +37,7 @@ module.exports = {
     "shorthand-property-no-redundant-values": true,
     "comment-whitespace-inside": "always",
     "at-rule-no-vendor-prefix": true,
+    "selector-type-no-unknown": [true, { "ignore": [ "custom-elements" ]} ],
     "declaration-block-no-duplicate-custom-properties": true,
     "declaration-block-no-duplicate-properties": true,
     "font-family-no-duplicate-names": true,
