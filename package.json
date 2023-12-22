@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-manzdev",
-  "version": "0.0.15",
+  "version": "0.0.17",
   "description": "Stylelint rules for lint your css",
   "main": "index.js",
   "scripts": {},

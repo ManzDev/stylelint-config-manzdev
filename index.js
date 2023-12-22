@@ -61,7 +61,7 @@ module.exports = {
     "selector-pseudo-class-no-unknown": true,
     "selector-pseudo-element-no-unknown": true,
     "function-calc-no-unspaced-operator": true,
-    "selector-type-no-unknown": true,
+    "selector-type-no-unknown": [true, { ignore: ["custom-elements"] }],
     "unit-no-unknown": true,
     "keyframe-declaration-no-important": true,
     "no-duplicate-selectors": true,
