@@ -1,12 +1,12 @@
 module.exports = {
   "extends": [
-    "stylelint-config-standard",
-    "stylelint-stylistic/config"
+    "stylelint-config-standard"
   ],
   "overrides": [
     { "files": ["**/*.css"] }
   ],
   "plugins": [
+    "@stylistic/stylelint-plugin",
     "stylelint-file-max-lines"
   ],
   "rules": {
@@ -37,7 +37,7 @@ module.exports = {
     "shorthand-property-no-redundant-values": true,
     "comment-whitespace-inside": "always",
     "at-rule-no-vendor-prefix": true,
-    "selector-type-no-unknown": [true, { "ignore": [ "custom-elements" ]} ],
+    "selector-type-no-unknown": [true, { "ignore": ["custom-elements"] }],
     "declaration-block-no-duplicate-custom-properties": true,
     "declaration-block-no-duplicate-properties": true,
     "font-family-no-duplicate-names": true,
@@ -66,5 +66,21 @@ module.exports = {
     "keyframe-declaration-no-important": true,
     "no-duplicate-selectors": true,
     "plugin/file-max-lines": [1000, { "ignore": "blankLines" }]
+
+    /* @stylistic */
+    "@stylistic/color-hex-case": "lower",
+    "@stylistic/function-comma-space-after": "always",
+    "@stylistic/function-comma-space-before": "never",
+    "@stylistic/function-max-empty-lines": 0,
+    "@stylistic/function-whitespace-after": "always",
+    "@stylistic/number-leading-zero": "always",
+    "@stylistic/number-no-trailing-zeros": true,
+    "@stylistic/string-quotes": "double",
+    "@stylistic/unit-case": "lower",
+    "@stylistic/value-list-max-empty-lines": 0,
+    "@stylistic/property-case": "lower",
+    "@stylistic/indentation": 2,
+    "@stylistic/max-empty-lines": 1,
+    "@stylistic/no-extra-semicolons": true,
   }
 }
