@@ -65,7 +65,7 @@ module.exports = {
     "unit-no-unknown": true,
     "keyframe-declaration-no-important": true,
     "no-duplicate-selectors": true,
-    "plugin/file-max-lines": [1000, { "ignore": "blankLines" }]
+    "plugin/file-max-lines": [1000, { "ignore": "blankLines" }],
 
     /* @stylistic */
     "@stylistic/color-hex-case": "lower",
